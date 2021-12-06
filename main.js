@@ -19,7 +19,7 @@ fetch(giphyApiURL).then(function(data){
     var img = document.createElement("img");
     img.setAttribute("src", imgPath);
     img.setAttribute("class", "giphy-container");
-    document.body.appendChild(img);
+    //document.body.appendChild(img);
     document.getElementById("image-area").innerHTML = "<img src='"+imgPath+"'>";
 })
 .catch(err => {
