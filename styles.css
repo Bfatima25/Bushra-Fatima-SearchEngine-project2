@@ -96,87 +96,33 @@ footer {
   }
 /* CSS breakpoints for all devices*/
 @media (max-width: 320px) {
-     h1 {
-         top: 10vh;
-     }
-     #searchText {
-         top: -12vh;
-         font-size: 10px;
-     }
-     
-     .container-button {
-         top: -12vh;
-         font-size: 10px;
-     }
+    h1 {
+        top: 7vh;
+        font-size: 40px;
     }
-
+    #searchText {
+        width: 50%;
+        font-size: 15px;
+        padding: 20px;
+        top: -15vh;
+    }
+    .container-button {
+        top: -15vh;
+        font-size: 15px;
+    }
+}
 @media (max-width: 768px) {
-    body{
-        background-color: #0d1a25;
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden; 
-     }
-     h1 {
-         font-family: 'Architects Daughter', cursive;
-         text-align: center;
-         position: absolute;
-         top: 10vh;
-         font-size: 30px;
-         color: rgb(209, 115, 43);
-     }
-     
-     .giphy-container {
-         margin: 50px auto;	
-     }
-     
-     .gif-search {
-         text-align: center;
-         width: 100%;
-         max-width: 1024px;
-         margin: 0 auto;
-     } 
-     
-     #searchText {
-         width: 50%;
-         min-width:50px;
-         display: inline-block;
-         padding: 20px;
-         position: relative;
-         top: -15vh;
-         font-size: 12px;
-         font-family: Helvetica, sans-serif;
-         border: 1px solid #bbb;
-         border-radius: 20px 0 0 20px;
-         color: #009933;
-         letter-spacing: 1px;
-         outline:none;
-         box-sizing: border-box;
-         align-content: center;
-     }
-     
-     .container-button {
-         width: 10%;
-         min-width:100px;
-         display: inline-block;
-         padding: 20px;
-         position: relative;
-         top: -15vh;
-         background-color: #009933;
-         color: #e6ffee;
-         font-size: 10px;
-         letter-spacing: 2px;
-         font-family: Helvetica, sans-serif;
-         border:0;
-         border-radius: 0 20px 20px 0;
-         outline:none;
-     }
-     
-     .container-button:hover {
-         background-color: #006622;
-     }
-     
+    h1 {
+        top: 10vh;
+        font-size: 45px;
+    }
+    #searchText {
+        width: 70%;
+        font-size: 20px;
+        top: -12vh;
+    }
+    .container-button {
+        top: -12vh;
+        font-size: 20px;
+    }
 }
