@@ -20,12 +20,12 @@ fetch(giphyApiURL).then(function(data){
     img.setAttribute("src", imgPath);
     img.setAttribute("class", "giphy-container");
     document.body.appendChild(img);
+    document.getElementById("image-area").innerHTML = "<img src='"+imgPath+"'>";
 })
 .catch(err => {
     console.log("Not Found")
 })
 }
-
 
 
 
